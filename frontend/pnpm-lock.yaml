@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@rolldown/binding-linux-x64-gnu':
+        specifier: 1.2.6
+        version: 1.2.6
       react:
         specifier: ^19.2.8
         version: 19.2.8
@@ -275,6 +278,13 @@ packages:
     resolution: {integrity: sha512-516OdsyLdr5E65paF3yBF55t8mfm9+gmtCsK3xI7XKXIT7EfRlHhxL8K/NR6Hu8BWSgF5+1w74lTL0+nxcc8Qw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+
+  '@rolldown/binding-linux-x64-gnu@1.2.6':
+    resolution: {integrity: sha512-KekI0gS0wLxe1UBSQSjenBVwou/JkcQPDzBPICGZjxUv9k3RteHDPBQaiOicZUFKRIH2wKEimGwVpnJsbPzu7w==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
     os: [linux]
     libc: [glibc]
 
@@ -1153,6 +1163,8 @@ snapshots:
 
   '@rolldown/binding-linux-s390x-gnu@1.2.7':
     optional: true
+
+  '@rolldown/binding-linux-x64-gnu@1.2.6': {}
 
   '@rolldown/binding-linux-x64-gnu@1.2.7':
     optional: true

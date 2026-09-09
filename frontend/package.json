@@ -29,5 +29,20 @@
   },
   "engines": {
     "node": "22.x"
+  },
+  "pnpm": {
+    "supportedArchitectures": {
+      "os": [
+        "current",
+        "linux"
+      ],
+      "cpu": [
+        "current",
+        "x64"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    }
   }
 }
